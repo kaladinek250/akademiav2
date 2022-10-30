@@ -3,9 +3,10 @@
     font-size:1rem;
     padding-top: 10px;
 }
-#register{
-    padding: 60px 20px;
+
+#register-card{
     text-align: center;
+    margin: 60px 10px;
 }
 
 
