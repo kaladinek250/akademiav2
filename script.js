@@ -25,7 +25,7 @@ function validate() {
 }
 
 
-btnNext.addEventListener("click", function () {
+btnNext.addEventListener("click", async function () {
     const e = document.getElementById("username").value;
     const r = document.getElementById("result");
     const p1 = document.getElementById("password").value;
